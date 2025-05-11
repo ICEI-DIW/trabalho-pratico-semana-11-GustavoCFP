@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rebobina - Catálogo de filmes</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="bg-dark text-white">
+
+  <header class="navbar navbar-expand-lg bg-secondary px-4 py-3">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <div class="logo fw-bold fs-4 text-warning">📽️ Rebobina</div>
+      <nav>
+        <ul class="navbar-nav d-flex flex-row gap-3">
+          <li class="nav-item"><a class="nav-link text-white" href="#">Início</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Novos</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Populares</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Listas</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Gêneros</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container my-4">
+
+    <h2 class="text-center text-warning mb-4">🎬 Destaques</h2>
+
+    <div id="carouselFilmes" class="carousel slide w-75 mx-auto rounded" data-bs-ride="carousel">
+      
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="img/cacafantasmas.webp" class="d-block w-100" style="height: 500px; object-fit: contain;" alt="Caça-Fantasmas">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+            <h5>Caça-Fantasmas</h5>
+            <p>Quem você vai chamar?</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/jogador.webp" class="d-block w-100" style="height: 500px; object-fit: contain;" alt="Jogador nº1">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+            <h5>Jogador Nº 1</h5>
+            <p>O futuro é o jogo.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/maze.jpg" class="d-block w-100" style="height: 500px; object-fit: contain;" alt="Maze Runner">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+            <h5>Maze Runner</h5>
+            <p>O labirinto é só o começo.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/the-lorax-movie-poster.jpg" class="d-block w-100" style="height: 500px; object-fit: contain;" alt="O Lorax">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+            <h5>O Lorax</h5>
+            <p>Proteja o mundo natural.</p>
+          </div>
+        </div>
+
+      </div>
+  
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselFilmes" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselFilmes" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+  
+    </div>
+  </div>
+
+  <main class="container my-5">
+    <h2 class="text-center mb-4">Filmes para assistir</h2>
+    <div class="row g-4" id="lista-filmes"></div>
+  </main>
+
+  <footer class="bg-secondary text-center py-3 text-muted">
+    <h5>🎬Sobre o Aluno🎬</h5>
+    <p>Gustavo Carvalho Ferreira Pinheiro</p>
+    <p>Curso: Engenharia de Software 01/2025</p>
+    <p>Disciplina: Desenvolvimento Interface Web</p>
+    <p>Turma: Noite</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="assets/scripts/app.js"></script>
+</body>
+</html>

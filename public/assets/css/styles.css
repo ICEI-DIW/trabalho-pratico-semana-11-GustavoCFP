@@ -1,0 +1,22 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .logo {
+    color: #f5c518;
+  }
+  
+  .card-img-top {
+    border-bottom: 2px solid #f5c518;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 15px rgba(245, 197, 24, 0.3);
+  }
+  
+  .nav-link:hover {
+    color: #f5c518 !important;
+    text-decoration: underline;
+  }

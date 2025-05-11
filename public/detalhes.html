@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detalhes do Filme</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="bg-dark text-white">
+
+  <header class="navbar navbar-expand-lg bg-secondary px-4 py-3">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <div class="logo fw-bold fs-4 text-warning">📽️ Rebobina</div>
+      <nav>
+        <ul class="navbar-nav d-flex flex-row gap-3">
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Novos</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Populares</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Listas</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Gêneros</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container py-5">
+    <h1 class="text-center" id="titulo-filme">Carregando detalhes...</h1>
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <img id="imagem-filme" src="" alt="Imagem do filme" class="img-fluid">
+      </div>
+      <div class="col-12 col-md-8">
+        <p><strong>Sinopse:</strong> <span id="sinopse-filme">Carregando...</span></p>
+        <p><strong>Gênero:</strong> <span id="genero-filme"></span></p>
+        <p><strong>Ano:</strong> <span id="ano-filme"></span></p>
+        <p><strong>Duração:</strong> <span id="duracao-filme"></span> minutos</p>
+        <p><strong>Classificação Indicativa:</strong> <span id="classificacao-filme"></span></p>
+  
+        <a href="index.html" class="btn btn-secondary mt-3">Voltar para Início</a>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="bg-secondary text-center py-3 text-muted">
+    <h5>🎬Sobre o Aluno🎬</h5>
+    <p>Gustavo Carvalho Ferreira Pinheiro</p>
+    <p>Curso: Engenharia de Software 01/2025</p>
+    <p>Disciplina: Desenvolvimento Interface Web</p>
+    <p>Turma: Noite</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="assets/scripts/app.js"></script>
+</body>
+</html>
