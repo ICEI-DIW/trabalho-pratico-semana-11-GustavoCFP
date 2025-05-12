@@ -1,14 +1,34 @@
 {
-  "usuarios": [
-    {
-      "id": 1,
-      "nome": "Ana Souza",
-      "email": "ana@example.com"
-    },
-    {
-      "id": 2,
-      "nome": "Bruno Lima",
-      "email": "bruno@example.com"
-    }
-  ]
+  "filmes": [
+  {
+    "id": "1",
+    "titulo": "A Origem",
+    "ano": 2010,
+    "genero": "Ficção Científica",
+    "diretor": "Christopher Nolan",
+    "duracao": 148,
+    "classificacao": "14 anos",
+    "sinopse": "Um ladrão que invade os sonhos das pessoas para roubar segredos corporativos."
+  },
+  {
+    "id": "2",
+    "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+    "ano": 2001,
+    "genero": "Fantasia",
+    "diretor": "Peter Jackson",
+    "duracao": 178,
+    "classificacao": "12 anos",
+    "sinopse": "Um jovem hobbit embarca em uma jornada para destruir um anel maligno e salvar a Terra Média."
+  },
+  {
+    "id": "3",
+    "titulo": "Cidade de Deus",
+    "ano": 2002,
+    "genero": "Drama/Crime",
+    "diretor": "Fernando Meirelles",
+    "duracao": 130,
+    "classificacao": "18 anos",
+    "sinopse": "A história da ascensão do crime organizado em uma favela do Rio de Janeiro, contada através da perspectiva de um jovem fotógrafo."
+  }
+]
 }

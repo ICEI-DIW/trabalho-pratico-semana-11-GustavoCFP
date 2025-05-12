@@ -4,14 +4,15 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Gustavo Pinheiro
+- Matricula: 895788
+- Proposta de projeto escolhida: Pagina de Filmes
+- Breve descrição sobre seu projeto: Um site onde as pessoas poderão ver sinopses dos filmes.
 
 **Print do teste da API com visualização do JSON**
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](image.png)
+![alt text](image-1.png)
 
 **Print da aba NETWORK com requisições Fetch/XHR**
 
